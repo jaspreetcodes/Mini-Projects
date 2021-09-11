@@ -1,67 +1,63 @@
-# Ninja Game 
+# All in One library 
 
-Command prompt game in c with some ascii art for asthetics , .
+A custom library containing sorting , searching and other basic algorithms in c .
 
 ## Deployment
 
-Go to cmd or bash and run these commands to play the game.
+type make on bash inside the directory containing driver file 
+(makefile contains compilation and execution commands)
 
-(ONLY  &nbsp; WORKS &nbsp;  ON &nbsp;  WINDOWS &nbsp;  DEVICES)
 ```bash
-gcc ninjaGame.c -o ninjaGame
-./ninjaGame
+make
 ```
 
-## Functions in Code
+## Header file
 
 ```c
-//Separate Functions for every processes
-// in the game. 
+//Separate Header files for separate niche
+// of algorithms. 
 
-void display_score();
-void init();
-int zero_lives();
-void set_game_state_over();
-char get_input();
-void update_player(char);
-void update_wall();
-void increment_score();
-void decrement_lives();
-void draw();
-void draw_wall();
-void draw_ninja();
+/*sorting
+void SelectionSort(int a[],int n)
+void InsertionSort(int a[],int n)
+void BubbleSort(int a[], int n)
+void MergeSort(int a[], int l, int r);
+void merge(int arr[], int l, int m, int r);
+void QuickSort(int a[], int l, int r);
+
+//Searching
+int BinarySearch(int arr[], int l, int r, int x);
+int LinearSearch(int arr[], int n, int x);
+
+// Basic functions ->
+void swap(int a[], int i, int j);
+void PrintArray(int a[], int n);
+*/
 
 ```
 ## Specialization and Design
 
-- No Graphics used
-- Live score updation
-- 3 Lives given to the player
-- reward for high score 
-- Ascii arts
-- Pixel manipulation
-- 3 seconds countdown to restart
-- Walls, spikes , ninja
-- Controls: 
-- j -> jump
-- q -> Quit 
+- Automation using makefile
+- Security
+- Sharing functionalities
+- Re-usability
+- Build 
+- DESIGN:
+- contains files in .o, .h, .a formats
+- and a makefile
+- header files
+- compressed files
   
 ## Optimizations
 
-Ascii arts for asthetics.
+Adittion of more famous algorithms and classic problems , dynamic libraries.
 
   
 ## Goals
-To make a running game for fun.
+Helping fellow programmers with this library(lib_host).
 
 
 
-  
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-  
 ## Author
 
 - [@JaspreetSingh](https://github.com/jaspreetcodes)
