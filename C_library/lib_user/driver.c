@@ -17,9 +17,10 @@ int main()
 		
 		int a[n];
 		int l = 0, r = n, key = 5;
-		
+
 		setArray(a, n, upper_limit);
 		
+		// printf(BinarySearch(a, l, r, 2));
 		printf("Unsorted :");
 		PrintArray(a, n);
 		

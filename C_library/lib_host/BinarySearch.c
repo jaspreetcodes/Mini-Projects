@@ -1,5 +1,6 @@
 int BinarySearch(int arr[], int l, int r, int x)
 {
+    // printf("Hello /n");
     if (l <= r) {
         int mid = l + (r - l) / 2;
         if (arr[mid] == x)
