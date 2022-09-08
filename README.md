@@ -1,5 +1,1 @@
-# MyProjects
-File Organizer(nodejs), javascript projects, landing webpage(using html, css, bootstrap) and a c library.
-Screenshots of all the projects are available in screenshots folder.File Organizer(nodejs), javascript projects, landing webpage(using html, css, bootstrap) and a c library.
-Screenshots of all the projects are available in screenshots folder.
-
+This repository contains code files for File Organizer (nodejs), some webgames like Drumkit and a dice game (using Javascript), a landing webpage, and a C library. Moreover, screenshots of these are posted in the "screenshots" folder.
