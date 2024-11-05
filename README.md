@@ -58,3 +58,8 @@ The first 3 of these capsules were deemed the most important
 to the project, and are their respective state machines are shown
 below:
 ![image](https://github.com/user-attachments/assets/5ac9bc68-988f-4b36-a38c-9f226d62e846)
+
+
+### Authors
+Jaspreet Singh (23cf12@queensu.ca)
+Nick Totman (nick.totman@queensu.ca)
