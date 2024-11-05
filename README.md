@@ -62,4 +62,5 @@ below:
 
 ### Authors
 Jaspreet Singh (23cf12@queensu.ca)
+
 Nick Totman (nick.totman@queensu.ca)
